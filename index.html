@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah Designs | Creative Studio</title>
+<meta name="description" content="Abdullah Designs provides affordable graphic design, social media posters, YouTube thumbnails and business advertisements.">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--gold:#e9b949;--black:#090909;--white:#fff}
+html{scroll-behavior:smooth}
+body{
+ font-family:Arial,sans-serif;
+ background:var(--black);
+ color:var(--white);
+ line-height:1.6;
+}
+a{text-decoration:none;color:inherit}
+header{
+ position:sticky;top:0;z-index:10;
+ background:#101010;
+ border-bottom:1px solid #383027;
+ padding:17px 7%;
+ display:flex;justify-content:space-between;
+ align-items:center;flex-wrap:wrap;gap:12px;
+}
+.logo{font-size:22px;font-weight:bold;color:var(--gold)}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{font-size:13px;color:#ddd}
+nav a:hover{color:var(--gold)}
+.hero{
+ min-height:510px;padding:100px 8%;
+ display:flex;align-items:center;
+ background:radial-gradient(ellipse at 80% 40%,#49330d,#090909 65%);
+}
+.hero-content{max-width:680px}
+.tag{color:var(--gold);letter-spacing:4px;font-size:12px}
+h1{font-size:clamp(42px,7vw,75px);line-height:1.1;margin:20px 0}
+h1 span{color:var(--gold)}
+.hero p{color:#bbb;max-width:530px}
+.btn{
+ display:inline-block;padding:13px 23px;
+ background:var(--gold);color:#111;
+ border-radius:5px;font-weight:bold;
+ margin:25px 10px 0 0;
+}
+.btn-outline{
+ background:transparent;border:1px solid var(--gold);
+ color:var(--gold);
+}
+section{padding:75px 8%}
+.section-title{text-align:center;margin-bottom:38px}
+.section-title h2{font-size:34px;color:var(--gold)}
+.section-title p{color:#999}
+.about{
+ background:#111;display:grid;
+ grid-template-columns:1fr 1fr;gap:35px;
+ align-items:center;
+}
+.about h2{font-size:32px;color:var(--gold)}
+.about p{color:#bbb;margin-top:15px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{
+ border:1px solid #40351f;padding:25px;
+ text-align:center;border-radius:8px;
+ background:#171717;
+}
+.stat strong{display:block;color:var(--gold);font-size:24px}
+.cards{
+ display:grid;grid-template-columns:repeat(3,1fr);
+ gap:20px;
+}
+.card{
+ background:#151515;border:1px solid #30291e;
+ border-radius:9px;overflow:hidden;
+ transition:.2s;
+}
+.card:hover{transform:translateY(-5px);border-color:var(--gold)}
+.art{
+ min-height:175px;display:flex;
+ align-items:center;justify-content:center;
+ text-align:center;padding:20px;
+ font-weight:bold;font-size:25px;
+ color:white;
+}
+.food{background:linear-gradient(140deg,#3e1708,#d17a15)}
+.sale{background:linear-gradient(140deg,#151515,#80601c)}
+.game{background:linear-gradient(140deg,#101e65,#6425a1)}
+.teacher{background:linear-gradient(140deg,#103e43,#b68a39)}
+.mobile{background:linear-gradient(140deg,#18202d,#2479a6)}
+.birthday{background:linear-gradient(140deg,#271139,#ac478c)}
+.card-info{padding:17px}
+.card-info h3{color:var(--gold);font-size:17px}
+.card-info p{color:#aaa;font-size:13px}
+.services{background:#101010}
+.service{
+ padding:25px;background:#191919;
+ border:1px solid #393020;border-radius:8px;
+}
+.service h3{color:var(--gold);margin-bottom:8px}
+.service p{color:#aaa;font-size:14px}
+.price{
+ background:#151515;padding:20px;
+ border-radius:8px;border:1px solid #393020;
+ display:flex;justify-content:space-between;
+ gap:12px;margin:12px auto;max-width:580px;
+}
+.price strong{color:var(--gold)}
+.contact{text-align:center;background:#111}
+.contact p{color:#aaa;margin-top:10px}
+footer{
+ text-align:center;padding:25px;
+ border-top:1px solid #333;color:#888;
+ font-size:13px;
+}
+@media(max-width:700px){
+ header{justify-content:center}
+ nav{justify-content:center;gap:13px}
+ .about{grid-template-columns:1fr}
+ .cards{grid-template-columns:1fr 1fr}
+ section{padding:55px 5%}
+ .hero{padding:75px 6%}
+}
+@media(max-width:420px){
+ .cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+ <div class="logo">♛ ABDULLAH DESIGNS</div>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact">Contact</a>
+ </nav>
+</header>
+
+<div class="hero" id="home">
+ <div class="hero-content">
+  <div class="tag">CREATIVE • MODERN • PROFESSIONAL</div>
+  <h1>We Design<br><span>Your Ideas!</span></h1>
+  <p>
+   Welcome to Abdullah Designs. We create attractive,
+   modern and professional graphic designs at affordable prices.
+  </p>
+  <a class="btn" href="#portfolio">Explore Portfolio</a>
+  <a class="btn btn-outline" href="#contact">Order Now</a>
+ </div>
+</div>
+
+<section class="about" id="about">
+ <div>
+  <div class="tag">ABOUT OUR STUDIO</div>
+  <h2>Creativity Meets Design</h2>
+  <p>
+   Abdullah Designs is a creative graphic designing studio
+   focused on making beautiful posters, social media designs,
+   YouTube thumbnails and business advertisements.
+  </p>
+  <p>
+   Our mission is to turn your ideas into attractive designs
+   with affordable pricing.
+  </p>
+ </div>
+ <div class="stats">
+  <div class="stat"><strong>Creative</strong>Designs</div>
+  <div class="stat"><strong>Affordable</strong>Prices</div>
+  <div class="stat"><strong>Modern</strong>Style</div>
+  <div class="stat"><strong>Friendly</strong>Service</div>
+ </div>
+</section>
+
+<section id="services" class="services">
+ <div class="section-title">
+  <h2>Our Services</h2>
+  <p>Creative solutions for your needs</p>
+ </div>
+ <div class="cards">
+  <div class="service">
+   <h3>Poster Designing</h3>
+   <p>Attractive promotional and event posters.</p>
+  </div>
+  <div class="service">
+   <h3>YouTube Thumbnails</h3>
+   <p>Eye-catching video thumbnails for creators.</p>
+  </div>
+  <div class="service">
+   <h3>Social Media Posts</h3>
+   <p>Professional posts for Facebook and Instagram.</p>
+  </div>
+  <div class="service">
+   <h3>Business Ads</h3>
+   <p>Promotional graphics for shops and businesses.</p>
+  </div>
+  <div class="service">
+   <h3>Birthday Cards</h3>
+   <p>Personalized greeting and celebration designs.</p>
+  </div>
+  <div class="service">
+   <h3>School Posters</h3>
+   <p>Educational charts and school event posters.</p>
+  </div>
+ </div>
+</section>
+
+<section id="portfolio">
+ <div class="section-title">
+  <h2>Our Portfolio</h2>
+  <p>Sample concepts – replace with your original work</p>
+ </div>
+ <div class="cards">
+  <div class="card">
+   <div class="art food">DELICIOUS<br>FOOD OFFER</div>
+   <div class="card-info"><h3>Restaurant Poster</h3><p>Food promotion concept</p></div>
+  </div>
+  <div class="card">
+   <div class="art sale">MEGA<br>SALE 50%</div>
+   <div class="card-info"><h3>Clothing Advertisement</h3><p>Fashion sale concept</p></div>
+  </div>
+  <div class="card">
+   <div class="art game">FREE FIRE<br>BOOYAH!</div>
+   <div class="card-info"><h3>Gaming Thumbnail</h3><p>Gaming design concept</p></div>
+  </div>
+  <div class="card">
+   <div class="art teacher">HAPPY<br>TEACHER'S DAY</div>
+   <div class="card-info"><h3>Teacher's Day Poster</h3><p>School event concept</p></div>
+  </div>
+  <div class="card">
+   <div class="art mobile">NEW ARRIVAL<br>MOBILES</div>
+   <div class="card-info"><h3>Mobile Shop Ad</h3><p>Product promotion concept</p></div>
+  </div>
+  <div class="card">
+   <div class="art birthday">HAPPY<br>BIRTHDAY</div>
+   <div class="card-info"><h3>Birthday Card</h3><p>Greeting design concept</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="pricing" class="services">
+ <div class="section-title">
+  <h2>Our Price List</h2>
+  <p>Affordable introductory prices</p>
+ </div>
+ <div class="price"><span>Simple Poster</span><strong>Rs. 100</strong></div>
+ <div class="price"><span>Shop Advertisement</span><strong>Rs. 150</strong></div>
+ <div class="price"><span>YouTube Thumbnail</span><strong>Rs. 150</strong></div>
+ <div class="price"><span>Birthday Card</span><strong>Rs. 150</strong></div>
+ <div class="price"><span>School Event Poster</span><strong>Rs. 200</strong></div>
+ <div class="price"><span>Premium Design</span><strong>Rs. 300</strong></div>
+ <p style="text-align:center;color:#999;font-size:12px">
+  Final prices depend on design complexity and requirements.
+ </p>
+</section>
+
+<section class="contact" id="contact">
+ <div class="tag">LET'S WORK TOGETHER</div>
+ <h2 style="color:#e9b949;font-size:35px;margin:12px">
+  Have a Design Idea?
+ </h2>
+ <p>Contact us today and let's create something amazing!</p>
+ <a class="btn" id="orderBtn" href="#" target="_blank">
+  Order on WhatsApp
+ </a>
+ <p style="font-size:13px;margin-top:20px">
+  Abdullah Designs | Creative • Modern • Professional
+ </p>
+</section>
+
+<footer>
+ © 2026 Abdullah Designs. All Rights Reserved.
+</footer>
+
+<script>
+// Replace this with your guardian-approved business number.
+// Pakistan example: 923001234567 (no + sign or spaces).
+const whatsappNumber = "923157034746";
+
+const message = encodeURIComponent(
+ "Assalam-o-Alaikum! I want to order a design from Abdullah Designs."
+);
+
+document.getElementById("orderBtn").href =
+ "https://wa.me/" + whatsappNumber + "?text=" + message;
+</script>
+
+</body>
+</html>
